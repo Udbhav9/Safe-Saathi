@@ -14,6 +14,7 @@
   justify-content: space-between;
   padding: 10px 20px;
   border-bottom: 1px solid #ddd;
+  flex-wrap: wrap;
 }
 
 .logo-container {
@@ -38,6 +39,7 @@
   list-style: none;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 .navbar ul li a {
@@ -54,6 +56,7 @@
   padding: 40px 20px;
   background-color: #c4dad2;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .hero-content {
@@ -197,3 +200,36 @@ footer {
   width: 30px;
   margin: 0 10px;
 }
+
+/* For Mobile Devices */
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .brand-name {
+    font-size: 20px;
+  }
+
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero-image {
+    height: 150px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr; /* Single column for mobile */
+  }
+
+  .alerts {
+    grid-template-columns: 1fr; /* Single column for alerts */
+  }
+}
+
