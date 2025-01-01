@@ -1,0 +1,199 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #16423C;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.brand-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fbfafc; /* Matches the primary button color */
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: rgb(255, 254, 254);
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  background-color: #c4dad2;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #6200ee;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.hero-image {
+  height: 300px; /* Adjusted image size */
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Alert System */
+.alert-system {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #9bd8c2;
+}
+
+.alerts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.alert {
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.red-alert {
+  background-color: #fd0505;
+}
+
+.orange-alert {
+  background-color: #fea80a;
+}
+
+.yellow-alert {
+  background-color: #e2cc07;
+}
+
+.green-alert {
+  background-color: #06d506;
+}
+
+/* Features Section */
+.features {
+  padding: 40px 20px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.feature-1 {
+  background-color: #db8b84;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.feature-2 {
+  background-color: #dcbd87;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.feature-3 {
+  background-color: #cadb86;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.feature-4 {
+  background-color: #85ddae;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #c4dad2;
+}
+
+/* Safety Tips Section */
+.safety-tips {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #84d8b9
+}
+
+.safety-tips ul {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.safety-tips ul li {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+.social-icons img {
+  height: 30px;
+  width: 30px;
+  margin: 0 10px;
+}
